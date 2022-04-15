@@ -22,7 +22,7 @@
         compatible = "zmk,keymap";
 
 
-        default_layer {
+        base {
             bindings = <
    &kp TAB   &kp Q   &kp W     &kp E   &kp R      &kp T                &kp Y   &kp U      &kp I    &kp O     &kp P  &kp BSLH
  &kp LCTRL   &kp A   &kp S     &kp D   &kp F      &kp G                &kp H   &kp J      &kp K    &kp L  &kp SEMI  &kp APOS
@@ -31,7 +31,7 @@
             >;
         };
 
-        layer_raise {
+        raise {
             bindings = <
      &trans        &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &trans  &trans  &trans  &trans  &trans
@@ -40,7 +40,7 @@
             >;
         };
 
-        layer_lower {
+        lower {
             bindings = <
  &trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT            &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR     &trans
  &trans    &trans  &trans    &trans    &trans     &trans            &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
