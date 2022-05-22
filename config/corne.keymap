@@ -14,11 +14,55 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-
 #include <dt-bindings/zmk/bt.h>
-
 / {
-    keymap {
+    
+      combos {
+        compatible = "zmk,combos";
+
+        tab {
+          bindings = <&trans>;
+          key-positions = <2 3>;
+        };
+
+        ctrl {
+          bindings = <&kp LCTRL>;
+          key-positions = <26 27>;
+        };
+
+        cmd {
+          bindings = <&kp LCMD>;
+          key-positions = <37 38>;
+        };
+
+        alt {
+          bindings = <&kp LEFT_ALT>;
+          key-positions = <39 40>;
+        };
+
+        shift {
+          bindings = <&kp LSHIFT>;
+          key-positions = <8 9>;
+        };
+
+        caps_word {
+          bindings = <&caps_word>;
+          key-positions = <17 18>;
+        };
+
+        delete {
+          bindings = <&kp DEL>;
+          key-positions = <32 33>;
+        };
+
+
+
+
+
+
+
+      };
+      keymap {
         compatible = "zmk,keymap";
 
 
