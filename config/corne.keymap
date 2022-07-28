@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     behaviors {
@@ -100,10 +101,10 @@
 
         lower {
             bindings = <
- &trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT          &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR     &trans
- &trans    &trans  &trans    &trans    &trans     &trans          &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
- &trans    &trans  &trans    &trans    &trans     &trans          &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
-                             &trans    &trans     &trans             &trans     &trans           &trans
+ &trans  &kp EXCL  &kp AT                        &kp HASH                          &kp DLLR                         &kp PRCNT          &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR     &trans
+ &trans    &trans  &trans                          &trans                            &trans                            &trans          &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
+ &trans    &trans  &trans                          &trans                            &trans                            &trans          &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
+                           &rgb_ug RGB_COLOR_HSB(0,50,56)  &rgb_ug RGB_COLOR_HSB(104,57,55)  &rgb_ug RGB_COLOR_HSB(209,50,55)             &trans     &trans           &trans
             >;
         };
     };
