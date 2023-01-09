@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 // dt-formatter: indent = "  "
-// dt-formatter: reindentMultilineIntegerCells = true
+// dt-formatter: reindentMultilineIntegerCells = "dedent"
 
 / {
   behaviors {
