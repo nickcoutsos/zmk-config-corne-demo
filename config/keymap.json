@@ -1,13 +1,9 @@
-Hey. Hey, you!
+Hey.
 
 This file is deprecated.
 
 Are you attempting to use this with Nick Coutsos' keymap
 editor (https://nickcoutsos.github.io/keymap-editor)? If
-so, make sure you have the "Enable Legacy Keymap" option
-unchecked in the settings dialog. If you need help visit
-the project's GitHub repository and create an issue:
-  https://github.com/nickcoutsos/keymap-editor/issues
-
-If you're attempting to use this with some other keymap
-editor, I would encourage you to reconsider.
+so, you can ignore or delete this file. If you are
+attempting to use this with some other keymap editor, I
+would encourage you to reconsider.
